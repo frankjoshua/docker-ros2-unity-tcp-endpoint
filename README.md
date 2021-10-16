@@ -14,6 +14,14 @@ docker run -it \
     frankjoshua/unity-ros-tcp-endpoint
 ```
 
+Use a different port
+```
+docker run -it \
+    --network="host" \
+   frankjoshua/unity-ros-tcp-endpoint \
+   "ros2 run ros_tcp_endpoint default_server_endpoint --ros-args -p ROS_IP:=0.0.0.0 -p ROS_TCP_PORT:=10002"
+```
+
 ## Building
 
 Use [build.sh](build.sh) to build the docker containers.
