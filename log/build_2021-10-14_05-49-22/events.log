@@ -1,0 +1,77 @@
+[0.000000] (-) TimerEvent: {}
+[0.000524] (ros_tcp_endpoint) JobQueued: {'identifier': 'ros_tcp_endpoint', 'dependencies': OrderedDict()}
+[0.000624] (ros_tcp_endpoint) JobStarted: {'identifier': 'ros_tcp_endpoint'}
+[0.099760] (-) TimerEvent: {}
+[0.125518] (ros_tcp_endpoint) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/ros_tcp_endpoint', 'build', '--build-base', '/workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build', 'install', '--prefix', '/workspaces/docker-unity-ros-tcp-endpoint/install', '--record', '/workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/install.log', '--single-version-externally-managed'], 'cwd': '/workspaces/docker-unity-ros-tcp-endpoint/src/unity-ros-tcp-endpoint', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'HOSTNAME': 'josh-office', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/ee8c7def80afc00dd6e593ef12f37756d8f504ea/extensions/git/dist/askpass.sh', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/ee8c7def80afc00dd6e593ef12f37756d8f504ea/bin/helpers/browser.sh', 'HOME': '/home/ros', 'TERM_PROGRAM_VERSION': '1.61.0', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-829980d2-008d-4b8d-bcae-a2daa9b589f3.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/ee8c7def80afc00dd6e593ef12f37756d8f504ea/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/ee8c7def80afc00dd6e593ef12f37756d8f504ea/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/opt/ros/galactic', 'ROS_DISTRO': 'galactic', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-8f5e5bcc075478820db66f9c64348337364d9a58.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/vscode/vscode-server/bin/linux-x64/ee8c7def80afc00dd6e593ef12f37756d8f504ea/bin:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-8f5e5bcc075478820db66f9c64348337364d9a58.sock","/home/ros/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-5edf6bb995.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-8f5e5bcc075478820db66f9c64348337364d9a58.sock', 'AMENT_PREFIX_PATH': '/opt/ros/galactic', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint', 'PYTHONPATH': '/workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[0.199845] (-) TimerEvent: {}
+[0.235331] (ros_tcp_endpoint) StdoutLine: {'line': b'running egg_info\n'}
+[0.235622] (ros_tcp_endpoint) StdoutLine: {'line': b'creating ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info\n'}
+[0.235797] (ros_tcp_endpoint) StdoutLine: {'line': b'writing ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO\n'}
+[0.235889] (ros_tcp_endpoint) StdoutLine: {'line': b'writing dependency_links to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt\n'}
+[0.236037] (ros_tcp_endpoint) StdoutLine: {'line': b'writing entry points to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt\n'}
+[0.236116] (ros_tcp_endpoint) StdoutLine: {'line': b'writing requirements to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt\n'}
+[0.236184] (ros_tcp_endpoint) StdoutLine: {'line': b'writing top-level names to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt\n'}
+[0.237239] (ros_tcp_endpoint) StdoutLine: {'line': b"writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[0.259809] (ros_tcp_endpoint) StdoutLine: {'line': b"reading manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[0.260249] (ros_tcp_endpoint) StdoutLine: {'line': b"writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[0.260403] (ros_tcp_endpoint) StdoutLine: {'line': b'running build\n'}
+[0.260579] (ros_tcp_endpoint) StdoutLine: {'line': b'running build_py\n'}
+[0.260682] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build\n'}
+[0.260778] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib\n'}
+[0.260870] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.261056] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/thread_pauser.py -> /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.261197] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/exceptions.py -> /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.261319] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/default_server_endpoint.py -> /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.261444] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/service.py -> /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.261534] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/communication.py -> /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.261618] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/subscriber.py -> /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.261702] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/unity_service.py -> /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.261783] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/tcp_sender.py -> /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.261865] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/client.py -> /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.261966] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/__init__.py -> /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.262057] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/publisher.py -> /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.262146] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/server.py -> /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[0.262234] (ros_tcp_endpoint) StdoutLine: {'line': b'running install\n'}
+[0.262364] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_lib\n'}
+[0.262654] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[0.262793] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/thread_pauser.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[0.262969] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/exceptions.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[0.263136] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/default_server_endpoint.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[0.263279] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/service.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[0.263408] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/communication.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[0.263495] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/subscriber.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[0.263614] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/unity_service.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[0.263700] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/tcp_sender.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[0.263783] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/client.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[0.263865] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/__init__.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[0.263946] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/publisher.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[0.264027] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/server.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[0.264108] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint/thread_pauser.py to thread_pauser.cpython-38.pyc\n'}
+[0.264284] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint/exceptions.py to exceptions.cpython-38.pyc\n'}
+[0.264413] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint/default_server_endpoint.py to default_server_endpoint.cpython-38.pyc\n'}
+[0.264555] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint/service.py to service.cpython-38.pyc\n'}
+[0.264826] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint/communication.py to communication.cpython-38.pyc\n'}
+[0.265037] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint/subscriber.py to subscriber.cpython-38.pyc\n'}
+[0.265192] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint/unity_service.py to unity_service.cpython-38.pyc\n'}
+[0.265361] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint/tcp_sender.py to tcp_sender.cpython-38.pyc\n'}
+[0.266146] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint/client.py to client.cpython-38.pyc\n'}
+[0.266719] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint/__init__.py to __init__.cpython-38.pyc\n'}
+[0.266853] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint/publisher.py to publisher.cpython-38.pyc\n'}
+[0.267012] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint/server.py to server.cpython-38.pyc\n'}
+[0.267930] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_data\n'}
+[0.268248] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /workspaces/docker-unity-ros-tcp-endpoint/install/share/ament_index\n'}
+[0.268348] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /workspaces/docker-unity-ros-tcp-endpoint/install/share/ament_index/resource_index\n'}
+[0.268497] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /workspaces/docker-unity-ros-tcp-endpoint/install/share/ament_index/resource_index/packages\n'}
+[0.268619] (ros_tcp_endpoint) StdoutLine: {'line': b'copying resource/ros_tcp_endpoint -> /workspaces/docker-unity-ros-tcp-endpoint/install/share/ament_index/resource_index/packages\n'}
+[0.268709] (ros_tcp_endpoint) StdoutLine: {'line': b'copying package.xml -> /workspaces/docker-unity-ros-tcp-endpoint/install/share/ros_tcp_endpoint\n'}
+[0.268797] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /workspaces/docker-unity-ros-tcp-endpoint/install/share/ros_tcp_endpoint/launch\n'}
+[0.268862] (ros_tcp_endpoint) StdoutLine: {'line': b'copying launch/endpoint.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/share/ros_tcp_endpoint/launch\n'}
+[0.268933] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.269642] (ros_tcp_endpoint) StdoutLine: {'line': b'Copying ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint-0.0.1-py3.8.egg-info\n'}
+[0.270158] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_scripts\n'}
+[0.281922] (ros_tcp_endpoint) StdoutLine: {'line': b'Installing default_server_endpoint script to /workspaces/docker-unity-ros-tcp-endpoint/install/lib/ros_tcp_endpoint\n'}
+[0.282208] (ros_tcp_endpoint) StdoutLine: {'line': b"writing list of installed files to '/workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/install.log'\n"}
+[0.298034] (ros_tcp_endpoint) CommandEnded: {'returncode': 0}
+[0.299955] (-) TimerEvent: {}
+[0.307873] (ros_tcp_endpoint) JobEnded: {'identifier': 'ros_tcp_endpoint', 'rc': 0}
+[0.308491] (-) EventReactorShutdown: {}

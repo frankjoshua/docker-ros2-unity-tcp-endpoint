@@ -1,0 +1,67 @@
+running egg_info
+creating ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info
+writing ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO
+writing dependency_links to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt
+writing entry points to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt
+writing requirements to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt
+writing top-level names to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt
+writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+reading manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build
+creating /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib
+creating /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+copying ros_tcp_endpoint/thread_pauser.py -> /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+copying ros_tcp_endpoint/exceptions.py -> /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+copying ros_tcp_endpoint/default_server_endpoint.py -> /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+copying ros_tcp_endpoint/service.py -> /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+copying ros_tcp_endpoint/communication.py -> /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+copying ros_tcp_endpoint/subscriber.py -> /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+copying ros_tcp_endpoint/unity_service.py -> /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+copying ros_tcp_endpoint/tcp_sender.py -> /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+copying ros_tcp_endpoint/client.py -> /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+copying ros_tcp_endpoint/__init__.py -> /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+copying ros_tcp_endpoint/publisher.py -> /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+copying ros_tcp_endpoint/server.py -> /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+running install
+running install_lib
+creating /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint
+copying /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/thread_pauser.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint
+copying /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/exceptions.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint
+copying /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/default_server_endpoint.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint
+copying /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/service.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint
+copying /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/communication.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint
+copying /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/subscriber.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint
+copying /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/unity_service.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint
+copying /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/tcp_sender.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint
+copying /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/client.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint
+copying /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/__init__.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint
+copying /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/publisher.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint
+copying /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/server.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint
+byte-compiling /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint/thread_pauser.py to thread_pauser.cpython-38.pyc
+byte-compiling /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint/exceptions.py to exceptions.cpython-38.pyc
+byte-compiling /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint/default_server_endpoint.py to default_server_endpoint.cpython-38.pyc
+byte-compiling /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint/service.py to service.cpython-38.pyc
+byte-compiling /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint/communication.py to communication.cpython-38.pyc
+byte-compiling /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint/subscriber.py to subscriber.cpython-38.pyc
+byte-compiling /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint/unity_service.py to unity_service.cpython-38.pyc
+byte-compiling /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint/tcp_sender.py to tcp_sender.cpython-38.pyc
+byte-compiling /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint/client.py to client.cpython-38.pyc
+byte-compiling /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint/__init__.py to __init__.cpython-38.pyc
+byte-compiling /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint/publisher.py to publisher.cpython-38.pyc
+byte-compiling /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint/server.py to server.cpython-38.pyc
+running install_data
+creating /workspaces/docker-unity-ros-tcp-endpoint/install/share/ament_index
+creating /workspaces/docker-unity-ros-tcp-endpoint/install/share/ament_index/resource_index
+creating /workspaces/docker-unity-ros-tcp-endpoint/install/share/ament_index/resource_index/packages
+copying resource/ros_tcp_endpoint -> /workspaces/docker-unity-ros-tcp-endpoint/install/share/ament_index/resource_index/packages
+copying package.xml -> /workspaces/docker-unity-ros-tcp-endpoint/install/share/ros_tcp_endpoint
+creating /workspaces/docker-unity-ros-tcp-endpoint/install/share/ros_tcp_endpoint/launch
+copying launch/endpoint.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/share/ros_tcp_endpoint/launch
+running install_egg_info
+Copying ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint-0.0.1-py3.8.egg-info
+running install_scripts
+Installing default_server_endpoint script to /workspaces/docker-unity-ros-tcp-endpoint/install/lib/ros_tcp_endpoint
+writing list of installed files to '/workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/install.log'

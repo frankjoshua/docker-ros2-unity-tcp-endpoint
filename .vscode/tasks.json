@@ -3,7 +3,6 @@
         // for the documentation about the tasks.json format
         "version": "2.0.0",
         "tasks": [
-            // Build tasks
             {
                 "label": "build",
                 "detail": "Build workspace (default)",
@@ -13,7 +12,7 @@
                     "kind": "build",
                     "isDefault": true
                 },
-                "problemMatcher": "$gcc"
+                "problemMatcher": []
             },
             {
                 "label": "debug",
@@ -23,7 +22,6 @@
                 "group": "build",
                 "problemMatcher": "$gcc"
             },
-            // Test tasks
             {
                 "label": "test",
                 "detail": "Run all unit tests and show results.",
@@ -34,7 +32,6 @@
                     "isDefault": true
                 }
             },
-            // Clean
             {
                 "label": "clean",
                 "detail": "Run the clean target",
@@ -49,7 +46,6 @@
                 "command": "rm -fr build install log; py3clean .",
                 "problemMatcher": []
             },
-            // Linting and static code analysis tasks
             {
                 "label": "fix",
                 "detail": "Reformat files with uncrustify.",
@@ -73,14 +69,13 @@
                         "source": " uncrustify",
                         "fileLocation": "relative",
                         "pattern": [
-                        /// just the file name message
                             {
                                 "regexp": "^(.*)'(.*)':",
                                 "kind": "file",
                                 "file": 2,
                                 "message": 1
-                            },
-                      ]
+                            }
+                        ]
                     }
                 ]
             },
@@ -173,20 +168,20 @@
                 },
                 "problemMatcher": [
                     {
-                      "owner": "flake8",
-                      "source": "flake8",
-                      "pattern": [
-                        {
-                          "code": 4,
-                          "column": 3,
-                          "file": 1,
-                          "line": 2,
-                          "message": 5,
-                          "regexp": "^(.+):(\\d+):(\\d+): (\\w\\d+) (.+)$"
-                        }
-                      ]
+                        "owner": "flake8",
+                        "source": "flake8",
+                        "pattern": [
+                            {
+                                "code": 4,
+                                "column": 3,
+                                "file": 1,
+                                "line": 2,
+                                "message": 5,
+                                "regexp": "^(.+):(\\d+):(\\d+): (\\w\\d+) (.+)$"
+                            }
+                        ]
                     }
-                  ]
+                ]
             },
             {
                 "label": "pep257",
@@ -244,10 +239,17 @@
             {
                 "label": "lint all",
                 "detail": "Run all linters.",
-                "dependsOn":["cppcheck", "cpplint", "flake8", "lint_cmake", "pep257","xmllint", "uncrustify"],
+                "dependsOn": [
+                    "cppcheck",
+                    "cpplint",
+                    "flake8",
+                    "lint_cmake",
+                    "pep257",
+                    "xmllint",
+                    "uncrustify"
+                ],
                 "problemMatcher": []
             },
-            // Workspace editing tasks
             {
                 "label": "new ament_cmake package",
                 "detail": "Create a new ROS cpp package from a template.",

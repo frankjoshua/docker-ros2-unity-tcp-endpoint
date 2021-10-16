@@ -1,5 +1,6 @@
 // See https://aka.ms/vscode-remote/devcontainer.json for format details.
 {
+    "name": "Unity ROS TCP Endpoint",
     "context": "../",
     "dockerFile": "../Dockerfile",
     // This could launch the container as a non-root user

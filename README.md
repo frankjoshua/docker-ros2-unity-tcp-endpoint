@@ -1,4 +1,4 @@
-# ROS master in Docker [![](https://img.shields.io/docker/pulls/frankjoshua/ros2-master)](https://hub.docker.com/r/frankjoshua/ros2-master) [![CI](https://github.com/frankjoshua/docker-ros2-master/workflows/CI/badge.svg)](https://github.com/frankjoshua/docker-ros2-master/actions)
+# ROS Unity ROS TCP Endpoint in Docker [![](https://img.shields.io/docker/pulls/frankjoshua/unity-ros-tcp-endpoint)](https://hub.docker.com/r/frankjoshua/unity-ros-tcp-endpoint) [![CI](https://github.com/frankjoshua/docker-unity-ros-tcp-endpoint/workflows/CI/badge.svg)](https://github.com/frankjoshua/docker-unity-ros-tcp-endpoint/actions)
 
 ## Description
 
@@ -11,9 +11,7 @@ This repo is mostly an example of how to build a multi architecture docker conta
 ```
 docker run -it \
     --network="host" \
-    --env="ROS_IP=$ROS_IP" \
-    --env="ROS_MASTER_URI=$ROS_MASTER_URI" \
-    frankjoshua/ros2-master
+    frankjoshua/unity-ros-tcp-endpoint
 ```
 
 ## Building
@@ -23,7 +21,7 @@ Use [build.sh](build.sh) to build the docker containers.
 <br>Local builds are as follows:
 
 ```
-./build.sh -t frankjoshua/ros2-master -l
+./build.sh -t frankjoshua/unity-ros-tcp-endpoint -l
 ```
 
 ## Template

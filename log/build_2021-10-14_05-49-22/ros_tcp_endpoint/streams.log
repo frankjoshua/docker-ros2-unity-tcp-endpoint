@@ -1,0 +1,69 @@
+[0.127s] Invoking command in '/workspaces/docker-unity-ros-tcp-endpoint/src/unity-ros-tcp-endpoint': PYTHONPATH=/workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build install --prefix /workspaces/docker-unity-ros-tcp-endpoint/install --record /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/install.log --single-version-externally-managed
+[0.235s] running egg_info
+[0.235s] creating ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info
+[0.235s] writing ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO
+[0.235s] writing dependency_links to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt
+[0.235s] writing entry points to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt
+[0.236s] writing requirements to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt
+[0.236s] writing top-level names to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt
+[0.237s] writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[0.259s] reading manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[0.260s] writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[0.260s] running build
+[0.260s] running build_py
+[0.260s] creating /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build
+[0.260s] creating /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib
+[0.260s] creating /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.260s] copying ros_tcp_endpoint/thread_pauser.py -> /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.261s] copying ros_tcp_endpoint/exceptions.py -> /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.261s] copying ros_tcp_endpoint/default_server_endpoint.py -> /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.261s] copying ros_tcp_endpoint/service.py -> /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.261s] copying ros_tcp_endpoint/communication.py -> /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.261s] copying ros_tcp_endpoint/subscriber.py -> /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.261s] copying ros_tcp_endpoint/unity_service.py -> /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.261s] copying ros_tcp_endpoint/tcp_sender.py -> /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.261s] copying ros_tcp_endpoint/client.py -> /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.261s] copying ros_tcp_endpoint/__init__.py -> /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.261s] copying ros_tcp_endpoint/publisher.py -> /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.262s] copying ros_tcp_endpoint/server.py -> /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.262s] running install
+[0.262s] running install_lib
+[0.262s] creating /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint
+[0.262s] copying /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/thread_pauser.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint
+[0.262s] copying /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/exceptions.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint
+[0.263s] copying /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/default_server_endpoint.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint
+[0.263s] copying /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/service.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint
+[0.263s] copying /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/communication.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint
+[0.263s] copying /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/subscriber.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint
+[0.263s] copying /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/unity_service.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint
+[0.263s] copying /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/tcp_sender.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint
+[0.263s] copying /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/client.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint
+[0.263s] copying /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/__init__.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint
+[0.263s] copying /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/publisher.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint
+[0.263s] copying /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/server.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint
+[0.264s] byte-compiling /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint/thread_pauser.py to thread_pauser.cpython-38.pyc
+[0.264s] byte-compiling /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint/exceptions.py to exceptions.cpython-38.pyc
+[0.264s] byte-compiling /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint/default_server_endpoint.py to default_server_endpoint.cpython-38.pyc
+[0.264s] byte-compiling /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint/service.py to service.cpython-38.pyc
+[0.264s] byte-compiling /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint/communication.py to communication.cpython-38.pyc
+[0.264s] byte-compiling /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint/subscriber.py to subscriber.cpython-38.pyc
+[0.265s] byte-compiling /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint/unity_service.py to unity_service.cpython-38.pyc
+[0.265s] byte-compiling /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint/tcp_sender.py to tcp_sender.cpython-38.pyc
+[0.266s] byte-compiling /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint/client.py to client.cpython-38.pyc
+[0.266s] byte-compiling /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint/__init__.py to __init__.cpython-38.pyc
+[0.266s] byte-compiling /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint/publisher.py to publisher.cpython-38.pyc
+[0.266s] byte-compiling /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint/server.py to server.cpython-38.pyc
+[0.267s] running install_data
+[0.268s] creating /workspaces/docker-unity-ros-tcp-endpoint/install/share/ament_index
+[0.268s] creating /workspaces/docker-unity-ros-tcp-endpoint/install/share/ament_index/resource_index
+[0.268s] creating /workspaces/docker-unity-ros-tcp-endpoint/install/share/ament_index/resource_index/packages
+[0.268s] copying resource/ros_tcp_endpoint -> /workspaces/docker-unity-ros-tcp-endpoint/install/share/ament_index/resource_index/packages
+[0.268s] copying package.xml -> /workspaces/docker-unity-ros-tcp-endpoint/install/share/ros_tcp_endpoint
+[0.268s] creating /workspaces/docker-unity-ros-tcp-endpoint/install/share/ros_tcp_endpoint/launch
+[0.268s] copying launch/endpoint.py -> /workspaces/docker-unity-ros-tcp-endpoint/install/share/ros_tcp_endpoint/launch
+[0.268s] running install_egg_info
+[0.269s] Copying ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages/ros_tcp_endpoint-0.0.1-py3.8.egg-info
+[0.270s] running install_scripts
+[0.281s] Installing default_server_endpoint script to /workspaces/docker-unity-ros-tcp-endpoint/install/lib/ros_tcp_endpoint
+[0.282s] writing list of installed files to '/workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/install.log'
+[0.298s] Invoked command in '/workspaces/docker-unity-ros-tcp-endpoint/src/unity-ros-tcp-endpoint' returned '0': PYTHONPATH=/workspaces/docker-unity-ros-tcp-endpoint/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/build install --prefix /workspaces/docker-unity-ros-tcp-endpoint/install --record /workspaces/docker-unity-ros-tcp-endpoint/build/ros_tcp_endpoint/install.log --single-version-externally-managed
