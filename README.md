@@ -1,4 +1,4 @@
-# ROS Unity ROS TCP Endpoint in Docker [![](https://img.shields.io/docker/pulls/frankjoshua/unity-ros-tcp-endpoint)](https://hub.docker.com/r/frankjoshua/unity-ros-tcp-endpoint) [![CI](https://github.com/frankjoshua/docker-unity-ros-tcp-endpoint/workflows/CI/badge.svg)](https://github.com/frankjoshua/docker-unity-ros-tcp-endpoint/actions)
+# ROS Unity ROS TCP Endpoint in Docker [![](https://img.shields.io/docker/pulls/frankjoshua/ros2-unity-tcp-endpoint)](https://hub.docker.com/r/frankjoshua/ros2-unity-tcp-endpoint) [![CI](https://github.com/frankjoshua/docker-ros2-unity-tcp-endpoint/workflows/CI/badge.svg)](https://github.com/frankjoshua/docker-ros2-unity-tcp-endpoint/actions)
 
 ## Description
 
@@ -11,14 +11,14 @@ This repo is mostly an example of how to build a multi architecture docker conta
 ```
 docker run -it \
     --network="host" \
-    frankjoshua/unity-ros-tcp-endpoint
+    frankjoshua/ros2-unity-tcp-endpoint
 ```
 
 Use a different port
 ```
 docker run -it \
     --network="host" \
-   frankjoshua/unity-ros-tcp-endpoint \
+   frankjoshua/ros2-unity-tcp-endpoint \
    "ros2 run ros_tcp_endpoint default_server_endpoint --ros-args -p ROS_IP:=0.0.0.0 -p ROS_TCP_PORT:=10002"
 ```
 
@@ -29,7 +29,7 @@ Use [build.sh](build.sh) to build the docker containers.
 <br>Local builds are as follows:
 
 ```
-./build.sh -t frankjoshua/unity-ros-tcp-endpoint -l
+./build.sh -t frankjoshua/ros2-unity-tcp-endpoint -l
 ```
 
 ## Template
