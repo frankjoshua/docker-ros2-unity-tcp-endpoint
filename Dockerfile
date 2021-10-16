@@ -23,6 +23,5 @@ RUN apt-get update && rosdep update && rosdep install --from-paths src --ignore-
 USER ros
 RUN . /opt/ros/$ROS_DISTRO/setup.sh && colcon build --merge-install --cmake-args '-DCMAKE_BUILD_TYPE=RelWithDebInfo' -Wall -Wextra -Wpedantic
 
-USER ros
 ENTRYPOINT [ "/bin/bash", "-i", "-c" ]
 CMD ["ros2 run ros_tcp_endpoint default_server_endpoint --ros-args -p ROS_IP:=0.0.0.0 -p ROS_TCP_PORT:=10000"]
