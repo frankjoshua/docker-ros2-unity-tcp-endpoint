@@ -1,4 +1,4 @@
-FROM althack/ros2:galactic-dev 
+FROM frankjoshua/ros2
 
 # ** [Optional] Uncomment this section to install additional packages. **
 #
@@ -19,6 +19,7 @@ RUN echo "if [ -f ${WORKSPACE}/install/setup.bash ]; then source ${WORKSPACE}/in
 
 WORKDIR /home/ros
 COPY src ./src/
+USER root
 RUN apt-get update && rosdep update && rosdep install --from-paths src --ignore-src -y
 USER ros
 RUN . /opt/ros/$ROS_DISTRO/setup.sh && colcon build --merge-install --cmake-args '-DCMAKE_BUILD_TYPE=RelWithDebInfo' -Wall -Wextra -Wpedantic
